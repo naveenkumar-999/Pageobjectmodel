@@ -9,7 +9,7 @@ import pages.Facebookloginobjects;
 
 public class Facebookloginpagetest {
 	
-	static WebDriver driver = null;
+	private static WebDriver driver = null;
 	
 	public static void main(String[] args) {
 		facebookloginpagetest();
