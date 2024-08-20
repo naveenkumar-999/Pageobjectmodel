@@ -18,17 +18,16 @@ public class Facebooklogintest {
 		
 	}
 	
-	
-	
 	public static void facebooklogin() throws InterruptedException
 	{
 
-	System.setProperty("webdriver.chrome.driver","C:/Users/nanin/Downloads/chromedriver-win64 (10)/chromedriver-win64/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver",
+			   "C:/Users/nanin/Downloads/chromedriver-win64 (10)/chromedriver-win64/chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.get("https://www.facebook.com");
     Thread.sleep(2000);
     
-   // driver.findElement(By.id("email")).sendKeys("8639403690");
+   //driver.findElement(By.id("email")).sendKeys("8639403690");
     GoogleSearchPage.email(driver).sendKeys("8639403690");
     
     
