@@ -15,8 +15,7 @@ public class Facebooklogintest {
 	public static void main(String[] args) throws InterruptedException {
 		
 		facebooklogin();
-		
-	}
+		}
 	
 	public static void facebooklogin() throws InterruptedException
 	{
@@ -25,17 +24,17 @@ public class Facebooklogintest {
 			   "C:/Users/nanin/Downloads/chromedriver-win64 (10)/chromedriver-win64/chromedriver.exe");
 	driver = new ChromeDriver();
 	driver.get("https://www.facebook.com");
-    Thread.sleep(2000);
+        Thread.sleep(2000);
     
-   //driver.findElement(By.id("email")).sendKeys("8639403690");
-    GoogleSearchPage.email(driver).sendKeys("8639403690");
-    
-    
-   // driver.findElement(By.id("pass")).sendKeys("Nani@279");
-    GoogleSearchPage.pwd(driver).sendKeys("Nani@279");
+        //driver.findElement(By.id("email")).sendKeys("8639403690");
+        GoogleSearchPage.email(driver).sendKeys("8639403690");
     
     
-    driver.close();
+        // driver.findElement(By.id("pass")).sendKeys("Nani@279");
+        GoogleSearchPage.pwd(driver).sendKeys("Nani@279");
+    
+    
+        driver.close();
 	}
     
 
